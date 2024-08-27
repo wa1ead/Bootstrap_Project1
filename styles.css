@@ -36,3 +36,33 @@
   gap: 1.5rem;
   font-size: 1.25rem;
 }
+
+.hero-section {
+  display: table;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/travel-background.jpg");
+  background-position: center center;
+  height: 100vh;
+  object-fit: cover;
+  color: white;
+  text-align: center;
+}
+
+.hero-section h1 {
+  margin: 15rem 10rem 0 10rem;
+}
+
+.hero-section p {
+  margin: 2rem 10rem;
+}
+
+@media screen and (max-width: 980px) {
+  .hero-section h1 {
+    margin: 10rem 1rem 0 1rem;
+  }
+
+  .hero-section p {
+    margin: 1rem 1rem;
+  }
+}

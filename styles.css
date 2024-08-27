@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "ABeeZee";
+  src: url("abeezee-webfont.woff2") format("woff2"),
+    url("abeezee-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Agbalumo";
+  src: url("agbalumo-webfont.woff2") format("woff2"),
+    url("agbalumo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.navbar-brand img {
+  width: 8rem;
+  height: auto;
+  margin-left: 1rem;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+  margin-right: 1rem;
+}
+
+.collapse {
+  display: flex-column;
+}
+
+.navbar-nav {
+  gap: 1.5rem;
+  font-size: 1.25rem;
+}

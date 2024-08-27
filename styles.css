@@ -75,3 +75,15 @@
     margin: 1rem 1rem;
   }
 }
+
+.destinations-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  text-align: center;
+}
+
+.destinations-section h1 {
+  text-align: center;
+  color: #336a86;
+  margin-bottom: 4rem;
+}

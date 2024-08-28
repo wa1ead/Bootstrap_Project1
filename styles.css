@@ -62,15 +62,17 @@
   text-decoration: none;
 }
 
-.hero-section a:hover {
-  color: #336a86;
+.hero-section button:hover {
+  background-color: #336a86;
 }
 
 @media screen and (max-width: 980px) {
   .hero-section h1 {
     margin: 10rem 1rem 0 1rem;
   }
-
+  .col {
+    margin-left: 20% !important;
+  }
   .hero-section p {
     margin: 1rem 1rem;
   }
@@ -86,4 +88,8 @@
   text-align: center;
   color: #336a86;
   margin-bottom: 4rem;
+}
+
+.col {
+  padding-left: 4% !important;
 }

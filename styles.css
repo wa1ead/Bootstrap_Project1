@@ -170,3 +170,26 @@ footer p {
   font-weight: 600;
   margin-top: 4rem;
 }
+
+@media screen and (max-width: 980px) {
+  .hero-section h1 {
+    margin: 10rem 1rem 0 1rem;
+  }
+  .hero-section p {
+    margin: 1rem 1rem;
+  }
+  .col {
+    margin-left: 18% !important;
+  }
+  .destinations-section {
+    margin: 5rem 0;
+  }
+  .tours-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .contact-section {
+    margin: 4rem 5%;
+    max-width: 90%;
+  }
+}

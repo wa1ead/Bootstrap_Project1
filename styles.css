@@ -16,6 +16,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-brand img {
   width: 8rem;
   height: auto;
@@ -64,18 +70,6 @@
 
 .hero-section button:hover {
   background-color: #336a86;
-}
-
-@media screen and (max-width: 980px) {
-  .hero-section h1 {
-    margin: 10rem 1rem 0 1rem;
-  }
-  .hero-section p {
-    margin: 1rem 1rem;
-  }
-  .col {
-    margin-left: 18% !important;
-  }
 }
 
 .destinations-section {
@@ -129,4 +123,50 @@
 
 .contact-section a:hover {
   color: white;
+}
+
+footer {
+  background-color: #336a86;
+  color: white;
+}
+
+.social-media {
+  padding-top: 2rem;
+}
+
+.social-media h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.social-media a {
+  text-decoration: none;
+}
+
+.social-media li {
+  color: white;
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.social-media li:hover {
+  font-weight: 600;
+}
+
+.social-media img {
+  width: 2rem;
+  height: auto;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 4rem;
 }

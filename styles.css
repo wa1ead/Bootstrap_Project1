@@ -70,11 +70,11 @@
   .hero-section h1 {
     margin: 10rem 1rem 0 1rem;
   }
-  .col {
-    margin-left: 20% !important;
-  }
   .hero-section p {
     margin: 1rem 1rem;
+  }
+  .col {
+    margin-left: 18% !important;
   }
 }
 
@@ -92,4 +92,16 @@
 
 .col {
   padding-left: 4% !important;
+}
+
+.tours-section h1 {
+  color: #336a86;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.tours-section {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  text-align: center;
 }
